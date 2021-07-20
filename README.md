@@ -12,7 +12,8 @@ Using Genetic Algorithms (GA) with  NEAT-Python library to make Mario learn how 
 ```python3 -m retro.import /path/to/your/ROMs/directory/```
 
 ## Update RAM variables in *data.json*
-Open the file *data.json* located on :
+Open the file *data.json* located in Python libraries installation folder:
+
 ```../lib/python[3.6|3.7|3.8]/site-packages/retro/data/stable/SuperMarioWorld-Snes/```
 
 and subsitute it with the following RAM addresses for the new variables:
@@ -43,10 +44,9 @@ and subsitute it with the following RAM addresses for the new variables:
        " address " : 8261428 ,
        " type " : " <u4 "
     }
-   }
+  }
 }
 ```
-
 
 ## Plots obtained from execution
 It has been obtained execution statistics for **4 different size populations**:
