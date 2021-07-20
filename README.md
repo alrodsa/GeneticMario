@@ -14,7 +14,7 @@ Using Genetic Algorithms (GA) with  NEAT-Python library to make Mario learn how 
 ## Plots obtained from execution
 It has been obtained execution statistics for **4 different size populations**:
 
- -10 cromosomes.
- -30 cromosomes.
- -50 cromosomes.
- -100 cromosomes.
+ - 10 cromosomes.
+ - 30 cromosomes.
+ - 50 cromosomes.
+ - 100 cromosomes.
