@@ -8,6 +8,5 @@ Using Genetic Algorithms (GA) with  NEAT-Python library to make Mario learn how 
  |NEAT     | ```pip3 install neat``` |
 
 [IMPORTANT] The ROM of "Super Mario World" must be imported to use it in the Gym Retro enviroment, import it with:
-<center>
+
 ```python3 -m retro.import /path/to/your/ROMs/directory/```
-</center>
