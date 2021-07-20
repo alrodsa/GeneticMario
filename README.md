@@ -5,7 +5,9 @@ Using Genetic Algorithms (GA) with  NEAT-Python library to make Mario learn how 
  | Library | Installation command |
  | ---- | ---- |
  |Gym Retro | ```pip3 install gym-retro``` |
- |NEAT     | ```pip3 install neat-python``` |
+ |NEAT      | ```pip3 install neat-python``` |
+ |OpenCV    |````pip3 install opencv-python```|
+
 
 [IMPORTANT] The ROM of "Super Mario World" must be imported to use it in the Gym Retro enviroment, import it with:
 
@@ -55,3 +57,8 @@ It has been obtained execution statistics for **4 different size populations**:
  - *30 cromosomes*
  - *50 cromosomes*
  - *100 cromosomes*
+
+[Fitness function mean]
+<img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/Medias%20fitness%20function.svg">
+
+
