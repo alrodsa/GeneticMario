@@ -6,7 +6,7 @@ Using Genetic Algorithms (GA) with  NEAT-Python library to make Mario learn how 
  | ---- | ---- |
  |Gym Retro | ```pip3 install gym-retro``` |
  |NEAT      | ```pip3 install neat-python``` |
- |OpenCV    |````pip3 install opencv-python```|
+ |OpenCV    | ```pip3 install opencv-python```|
 
 
 [IMPORTANT] The ROM of "Super Mario World" must be imported to use it in the Gym Retro enviroment, import it with:
@@ -21,30 +21,50 @@ Open the file *data.json* located in Python libraries installation folder:
 and subsitute it with the following RAM addresses for the new variables:
 ```
 {
-    "info" : {
-     " coins " : {
-       " address " : 8261055 ,
-       " type " : " |u1 "
-     },
-    " lives " : {
-       " address " : 8261054 ,
-       " type " : " |i1 "
-     },
-     "x" : {
-       " address " : 148 ,
-       " type " : " <u2 "
-     },
-     " dead " : {
-       " address " : 8257688 ,
-       " type " : " <u4 "
+  "info": {
+    "checkpoint": {
+      "address": 5070,
+      "type": "|i1"
     },
-     " endOfLevel " : {
-       " address " : 8259846 ,
-       " type " : " |i1 "
+    "coins": {
+      "address": 8261055,
+      "type": "|u1"
     },
-     " score " : {
-       " address " : 8261428 ,
-       " type " : " <u4 "
+    "endOfLevel": {
+      "address": 8259846,
+      "type": "|i1"
+    },
+    "lives": {
+      "address": 8261399,
+      "type": "|u1"
+    },
+    "powerups": {
+      "address": 25,
+      "type": "|i1"
+    },
+    "score": {
+      "address": 8261428,
+      "type": "<u4"
+    },
+    "x": {
+      "address": 148,
+      "type": "<u2"
+    },
+    "dead": {
+      "address": 8257688,
+      "type": "<u4"
+    },
+    "y": {
+      "address": 114,
+      "type": "<u4"
+    },
+    "jump": {
+      "address": 8257747,
+      "type": "<u4"
+    },
+    "yoshiCoins": {
+      "address": 8262690,
+      "type": "<u4"
     }
   }
 }
@@ -59,6 +79,10 @@ It has been obtained execution statistics for **4 different size populations**:
  - *100 cromosomes*
 
 [Fitness function mean]
+
 <img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/Medias%20fitness%20function.svg">
+<img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/M%C3%A1ximos%20fitness%20function.svg">
+<img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/N%C3%BAmero%20de%20veces%20que%20se%20supera%20el%20nivel.svg">
+<img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/Tiempo%20de%20ejecuci%C3%B3n.svg">
 
 
