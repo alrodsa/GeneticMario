@@ -7,4 +7,4 @@ Using Genetic Algorithms (GA) with  NEAT-Python library to make Mario learn how 
  | -- | -- |
  |GymRetro | ```pip3 install gym-retro``` |
  |NEAT     | ```pip3 install neat``` |
-<\center>
+</center>
