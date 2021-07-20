@@ -81,8 +81,17 @@ It has been obtained execution statistics for **4 different size populations**:
 [Fitness function mean]
 
 <img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/Medias%20fitness%20function.svg">
+
+[Maximun Fitness function]
+
 <img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/M%C3%A1ximos%20fitness%20function.svg">
+
+[Number of time stage is completed]
+
 <img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/N%C3%BAmero%20de%20veces%20que%20se%20supera%20el%20nivel.svg">
+
+[Execution time]
+
 <img src="https://github.com/alrodsa/SMW_GeneticAlgorithms/blob/main/graphics/Tiempo%20de%20ejecuci%C3%B3n.svg">
 
 
